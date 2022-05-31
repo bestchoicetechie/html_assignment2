@@ -251,3 +251,23 @@ section h3::after {
   display: block;
   border-radius: 20px;
 }
+
+/* contact links */
+.contactlink {
+  padding: 100px 0;
+  margin: 30px 0;
+}
+.contactlink .content img {
+  width: 400px;
+}
+h4 {
+  color: #fff;
+  font-size: 18px;
+}
+
+.contactlink .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
