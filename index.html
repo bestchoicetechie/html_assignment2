@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> portfolio page</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
@@ -16,80 +17,160 @@ profile image :
 paragraph : about you
 list of your favorite sports: ul 
 list of your favorite people : ol  -->
-<h1>Awe Olusanya John</h1>
-<img src="images/pic1.jpg" alt="profile Picture">
-<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto minima omnis vitae repellat voluptatem velit dicta error voluptate obcaecati nam est atque, at exercitationem nemo cupiditate sit eum quos aspernatur dolorem perspiciatis inventore, molestias autem. Excepturi, amet. Corrupti, nobis consectetur corporis temporibus animi laboriosam tempora cum officiis amet nihil ut.</p>
-
-<h3>My Favourite Sports</h3>
-<ul>
-    <li id="first_li">Football</li>
-    <li>Basket Ball</li>
-    <li>Volley Ball</li>
-</ul>
-<h3>My Favourite People</h3>
-<ol>
-    <li>James</li>
-    <li>John</li>
-    <li>Joel</li>
-</ol>
-
-<!-- feedback branch 
-horizontal line 
-create a form (make sure each field starts on newline):
-    1.User name (should have label, required)
-    2.User email (should have label, required)
-    3.User contact number  (should have label)
-    4.User date of birth  (should  have label)
-    5.Married /un Married (should have label)
-    6.Gender              (should have label)
-    7.favorite color
-    8.Upload profile image 
-    9.Button to submit the form -->
-    <br><br><br>
-    <hr>
-    <br><br>
-    <form action="/">
-        <label for="username">Username:</label>
-        <input type="text" name="username" id="username" placeholder="Enter your username" required /><br>
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="" placeholder="Enter your email" required /><br>
-        <label for="number">Phone Number:</label>
-        <input type="number" name="phone_number" id="" placeholder="Enter Phone Number" /><br>
-        <label for="DOB">Date of Birth:</label>
-        <input type="date" name="DOB" id="" /><br>
-        <label for="status">Status</label><br>
-        <label> <input type="radio" name="status" id="" value="Married" />Married</label>
-        <label><input type="radio" name="status" id="" value="Single" />Single</label><br>
-        <label for="">Gender</label>
-        <label> <input type="radio" name="status" id="" value="male" />Male</label>
-        <label><input type="radio" name="status" id="" value="female" />Female</label><br>
-        <select name="" id="">
-            <option value="_">Select Course</option>
-            <option value="">Web Design</option>
-            <option value="">Web Development</option>
-            <option value="">Ops</option>
-        </select>
+<div class="banner">
+    <div class="name">
+        <h1>Awe <span style="color: orangered; font-family: cursive;">Olusanya</span> John</h1>
+    </div>
+    <div class="image">
+        <img class="profile_image" src="images/best.png" alt="profile Picture">
+    </div>
+    <div class="social_media">
+        <div class="items">
+            <img src="images/Group-1472.png" alt="instagram">
+            <img src="images/Group-1473.png" alt="twitter">
+            <img src="images/Group-1474.png" alt="facebook">
+            <img src="images/Group-1475.png" alt="youtube">
+        </div>
+    </div>
+</div>
+<div class="body-container">
+    <div class="desc">
+        <h3>My Description</h3>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto minima omnis vitae repellat voluptatem velit dicta error voluptate obcaecati nam est atque, at exercitationem nemo cupiditate sit eum quos aspernatur dolorem perspiciatis inventore, molestias autem. Excepturi, amet. Corrupti, nobis consectetur corporis temporibus animi laboriosam tempora cum officiis amet nihil ut.</p>
         <br>
-        <label for="">Select Color</label>
-        <input type="color" name="" id=""><br>
-        <input type="file" name="" id="" value="Profile_picture"><br>
-        <button type="submit">Submit</button>
-
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio doloribus, ipsam sunt itaque qui voluptates, earum nostrum labore harum necessitatibus libero porro officiis animi saepe atque repudiandae accusamus. Error dicta eveniet eligendi pariatur ut aut explicabo aliquam a quibusdam similique? Ab doloribus blanditiis aliquid harum earum atque consequatur explicabo. Impedit consectetur ab autem doloremque dolore animi aperiam neque accusantium consequuntur cupiditate? Doloribus ad iusto quis. Ad qui modi accusamus exercitationem. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit reprehenderit at dolore quibusdam doloribus enim provident eos beatae aperiam laborum perspiciatis saepe temporibus ut libero, dicta perferendis repellendus sint! Saepe eveniet beatae qui tempora quidem quae, iusto aperiam cumque praesentium, laudantium, fugiat nulla fuga quod ipsum iure ratione? Labore, ducimus!</p>
+        <br>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In unde accusamus voluptatum, quaerat temporibus fugiat officiis. Modi nihil vitae magni repellat placeat ipsum rerum consequatur natus sunt iure quibusdam saepe quam neque aut, labore veniam. Odit ad numquam odio expedita quia, molestiae ipsa. Nostrum aperiam necessitatibus ea suscipit beatae provident, doloribus alias laboriosam labore ipsum minima eligendi debitis id quis odit architecto assumenda quod animi ipsam repudiandae eos quaerat similique placeat. Est facere ab cum voluptas! Aut veritatis beatae saepe magnam necessitatibus, unde quasi, tenetur perspiciatis voluptas ipsa harum at accusantium vel reiciendis voluptates corporis molestiae incidunt deleniti quidem dolorem!</p>
+    </div>
+    
+    <div class="sports">
+        <h3 class="heading">My Favourites</h3>
+        <div class="content">
+            <div class="left">
+                <h3 >My Favourite Sports</h3>
+                <ul>
+                    <li id="first_li">Football</li>
+                    <li>Basket Ball</li>
+                    <li>Volley Ball</li>
+                </ul>
+                <h3>My Favourite People</h3>
+                <ol>
+                    <li>James</li>
+                    <li>John</li>
+                    <li>Joel</li>
+                </ol>
+            </div>
+            <div>
+                <img src="images/pic1.jpg" alt="">
+           </div>
+        </div>
+    </div>
+    <div class="people">
         
-        
-        
+    </div>
+    
+    <!-- feedback branch 
+    horizontal line 
+    create a form (make sure each field starts on newline):
+        1.User name (should have label, required)
+        2.User email (should have label, required)
+        3.User contact number  (should have label)
+        4.User date of birth  (should  have label)
+        5.Married /un Married (should have label)
+        6.Gender              (should have label)
+        7.favorite color
+        8.Upload profile image 
+        9.Button to submit the form -->
+        <br><br><br>
+        <hr>
+        <br><br>
+        <section id="contact">
+            <h3>Contact Me</h3>
+            <form action="/">
+                <div class="">
+                    <div class='form_container'>
+                        <div class="left">
+                            <div class="username">
+                                <label for="username">Username:</label>
+                            <input type="text" name="username" id="username" placeholder="Enter your username" required />
+                            </div>
+                            <div class="email">
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" id="" placeholder="Enter your email" required /><br>
+                            </div>
+                            <div class="phone">
+                                <label for="number">Phone Number:</label>
+                                <input type="number" name="phone_number" id="" placeholder="Enter Phone Number" /><br>
+                            </div>
+                            <div class="dob">
+                                <label for="DOB">Date of Birth:</label>
+                                <input type="date" name="DOB" id="" /><br>
+                            </div>
+                            <div class="status">
+                                <label for="status">Status:</label><br><br>
+                                <label for="married"> <input type="radio" name="status" id="married" value="Married" />Married</label>
+                                <label for="single"><input type="radio" name="status" id="single" value="Single" />Single</label><br>
+                            </div>
+                            <div class="gender">
+                                <label for="">Gender:</label><br><br>
+                                <label> <input type="radio" name="status" id="" value="male" />Male</label>
+                                <label><input type="radio" name="status" id="" value="female" />Female</label><br>
+                            </div>
+                        </div>
+                        <div class="right">
+                            <div class="courses">
+                                <select name="" id="">
+                                    <option value="_">Select Course</option>
+                                    <option value="">Web Design</option>
+                                    <option value="">Web Development</option>
+                                    <option value="">Ops</option>
+                                </select><br>
+                        
+                            <br>
+                            <div class="review">
+                                <label for="review">Review</label><br>
+                                <textarea name="review" id="review" cols="50" rows="5" maxlength="30"></textarea><br><br>
+                            </div>
+                            <div class="schedule">
+                                <label for="date">Select date<input type="date" name="" id="date" /><br></label>
+                                <br>
+                                <label for="time">Schedule Time<input type="time" name="time" id="time" /></label>
+                                <br>
+                            </div>
+                            <div class="checkout">
+                                <label for="">Frontend</label><br><br>
+                                <label for="html"><input type="checkbox" name="courses" id="html" value="frontend" />HTML</label>
+                                <label for="css"><input type="checkbox" name="courses" id="css" value="courses" />CSS</label>
+                                <label for="javascript"><input type="checkbox" name="courses" id="javascript" value="web" />Javascript</label>
+                            </div><br>
+                            <label for="upload">Upload your Picture <br><input style="width: 100%;" type="file" name="upload" id="upload"></label>
+                            <br>
+                            <!-- <input type="file" name="" id="" value="Profile_picture"> -->
+                            <br><br>
+                            <div class="other">
+                                <label for="color">Select Color:  <input type="color" name="color" id="color" /></label>
+                            </div>
+    
+                        </div>
+                        
+                    </div>
+                </div>
 
-
-       
-
-    </form>
-
-
-<!-- contactme branch
- Links :
-    1.clickable image of linkedin account
-    2.clickable image of instagram account 
-    3.clickable image of twitter account
-     -->
+                <div class="btn">
+                    <button type="submit">Submit</button>
+                </div>
+                
+                
+            </form>
+        </section>
+    
+    
+    <!-- contactme branch
+     Links :
+        1.clickable image of linkedin account
+        2.clickable image of instagram account 
+        3.clickable image of twitter account
+         -->
+</div>
 </body>
 </html>
