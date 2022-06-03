@@ -68,15 +68,16 @@ h3 {
   margin: 20px;
 }
 .social_media img {
-  width: 40px;
+  width: 50px;
   margin: 10px;
   box-shadow: 0 6px 12px #000;
   border-radius: 100%;
+  cursor: pointer;
 }
 .social_media img:hover {
-  transform: translateX(7px) translateY(5px);
-  transition: 1s;
-  /* z-index: 100; */
+  transform: scale(1.4);
+  opacity: 1;
+  transition: transform 350ms;
 }
 
 .desc {
